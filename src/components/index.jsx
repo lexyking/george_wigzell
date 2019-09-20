@@ -1,5 +1,7 @@
-import Home from './home/Home';
+import Header from './home/Header';
+import Nav from './Nav/Nav'
 
 export {
-  Home
+  Header,
+  Nav
 }

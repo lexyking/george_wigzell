@@ -5,3 +5,16 @@
   background-origin: content-box;
   min-height: 100vh;
 }
+
+.header{
+  border: 2px solid;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  padding: 10px;
+}
+
+.header_info1, .header_info2{
+  display: flex;
+  justify-content: space-between;
+}
