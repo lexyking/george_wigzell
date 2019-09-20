@@ -1,0 +1,7 @@
+.home{
+  background-image: url('./images/alexSun.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-origin: content-box;
+  min-height: 100vh;
+}
