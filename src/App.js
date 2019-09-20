@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import { Header } from './components/index'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Home } from './components/index'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <section className="home">
-        <Header />
-      </section>
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Home} />
+        </Switch>
+      </Router>
     );
   }
 }
